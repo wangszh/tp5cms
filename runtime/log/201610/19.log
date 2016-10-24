@@ -1,0 +1,459 @@
+[ 2016-10-19T09:44:54+08:00 ] ::1 ::1 GET /
+[ log ] localhost/ [运行时间：1.343293s][吞吐率：0.74req/s] [内存消耗：2,748.58kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\wamp\www\tp5mini\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\wamp\www\tp5mini/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ C:\wamp\www\tp5mini\application\index\controller\Index.php 21 - 25
+}
+
+[ info ] [ VIEW ] ./themes/default/index/index.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2016-10-19T09:44:54+08:00 ] ::1 ::1 GET /
+[ log ] localhost/ [运行时间：3.338187s][吞吐率：0.30req/s] [内存消耗：2,748.59kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\wamp\www\tp5mini\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\wamp\www\tp5mini/application/index\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ C:\wamp\www\tp5mini\application\index\controller\Index.php 21 - 25
+}
+
+[ info ] [ VIEW ] ./themes/default/index/index.html [ array (
+  0 => 'userinfo',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2016-10-19T09:45:01+08:00 ] ::1 ::1 GET /admin
+[ log ] localhost/admin [运行时间：0.264484s][吞吐率：3.78req/s] [内存消耗：2,362.08kb] [文件加载：53]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\wamp\www\tp5mini\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=8bj6d8176upjloh3el32p7uoe4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\wamp\www\tp5mini/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2016-10-19T09:45:02+08:00 ] ::1 ::1 GET /admin/base/login.html
+[ log ] localhost/admin/base/login.html [运行时间：0.227984s][吞吐率：4.39req/s] [内存消耗：2,281.17kb] [文件加载：50]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\wamp\www\tp5mini\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=8bj6d8176upjloh3el32p7uoe4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\wamp\www\tp5mini/application/admin\lang\zh-cn.php
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  tangtanglove <dai_hang_love@126.com>
+     */
+Method [ <user> public method login ] {
+  @@ C:\wamp\www\tp5mini\application\admin\controller\Base.php 40 - 75
+}
+
+[ info ] [ VIEW ] C:\wamp\www\tp5mini/application/admin\view\base\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2016-10-19T09:45:02+08:00 ] ::1 ::1 GET /static/bootstrap/css/font-awesome.min.css
+[ log ] localhost/static/bootstrap/css/font-awesome.min.css [运行时间：0.249967s][吞吐率：4.00req/s] [内存消耗：1,912.74kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\wamp\www\tp5mini\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'bootstrap',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://localhost/admin/base/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=8bj6d8176upjloh3el32p7uoe4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2016-10-19T09:45:02+08:00 ] ::1 ::1 GET /static/bootstrap/css/ionicons.min.css
+[ log ] localhost/static/bootstrap/css/ionicons.min.css [运行时间：0.131626s][吞吐率：7.60req/s] [内存消耗：1,912.65kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\wamp\www\tp5mini\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'bootstrap',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://localhost/admin/base/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=8bj6d8176upjloh3el32p7uoe4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2016-10-19T09:45:02+08:00 ] ::1 ::1 GET /static/plugins/iCheck/square/blue.css
+[ log ] localhost/static/plugins/iCheck/square/blue.css [运行时间：0.125939s][吞吐率：7.94req/s] [内存消耗：1,912.95kb] [文件加载：41]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\wamp\www\tp5mini\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'plugins',
+    2 => 'iCheck',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://localhost/admin/base/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=8bj6d8176upjloh3el32p7uoe4',
+)
+[ info ] [ PARAM ] array (
+  'square' => 'blue.css',
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2016-10-19T09:45:02+08:00 ] ::1 ::1 GET /admin/base/captcha.html
+[ log ] localhost/admin/base/captcha.html [运行时间：0.323118s][吞吐率：3.09req/s] [内存消耗：2,335.27kb] [文件加载：50]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\wamp\www\tp5mini\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'base',
+    2 => 'captcha',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/admin/base/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=8bj6d8176upjloh3el32p7uoe4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\wamp\www\tp5mini/application/admin\lang\zh-cn.php
+[ info ] [ RUN ] /**
+     * 系统验证码方法
+     * @author  tangtanglove <dai_hang_love@126.com>
+     */
+Method [ <user> public method captcha ] {
+  @@ C:\wamp\www\tp5mini\application\admin\controller\Base.php 81 - 85
+}
+
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2016-10-19T09:45:13+08:00 ] ::1 ::1 POST /admin/base/login.html
+[ log ] localhost/admin/base/login.html [运行时间：0.341051s][吞吐率：2.93req/s] [内存消耗：2,596.88kb] [文件加载：55]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\wamp\www\tp5mini\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'base',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+  'referer' => 'http://localhost/admin/base/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=8bj6d8176upjloh3el32p7uoe4',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'content-length' => '41',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+  'captcha' => 'yla',
+)
+[ info ] [ LANG ] C:\wamp\www\tp5mini/application/admin\lang\zh-cn.php
+[ info ] [ RUN ] /**
+     * 用户登录方法
+     * @author  tangtanglove <dai_hang_love@126.com>
+     */
+Method [ <user> public method login ] {
+  @@ C:\wamp\www\tp5mini\application\admin\controller\Base.php 40 - 75
+}
+
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2016-10-19T09:45:19+08:00 ] ::1 ::1 GET /admin/index/index.html
+[ log ] localhost/admin/index/index.html [运行时间：0.969741s][吞吐率：1.03req/s] [内存消耗：2,507.78kb] [文件加载：55]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\wamp\www\tp5mini\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/admin/base/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=8bj6d8176upjloh3el32p7uoe4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\wamp\www\tp5mini/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ C:\wamp\www\tp5mini\application\admin\controller\Index.php 21 - 38
+}
+
+[ info ] [ VIEW ] C:\wamp\www\tp5mini/application/admin\view\index\index.html [ array (
+  0 => 'menuTree',
+  1 => 'version',
+  2 => 'new_ver',
+  3 => 'user_num',
+  4 => 'post_num',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2016-10-19T09:45:26+08:00 ] ::1 ::1 GET /admin/post/index.html
+[ log ] localhost/admin/post/index.html [运行时间：1.589408s][吞吐率：0.63req/s] [内存消耗：2,995.62kb] [文件加载：64]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\wamp\www\tp5mini\core\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'post',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://localhost/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'think_var=zh-cn; PHPSESSID=8bj6d8176upjloh3el32p7uoe4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\wamp\www\tp5mini/application/admin\lang\zh-cn.php
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => 'session_id',
+  'prefix' => 'minishop',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] /**
+     * 文章列表
+     * @author tangtanglove
+     */
+Method [ <user> public method index ] {
+  @@ C:\wamp\www\tp5mini\application\admin\controller\Post.php 36 - 82
+}
+
+[ info ] [ VIEW ] C:\wamp\www\tp5mini/application/admin\view\post\index.html [ array (
+  0 => 'menuTree',
+  1 => 'postsList',
+  2 => 'status',
+  3 => 'category',
+  4 => 'termTaxonomySelectTree',
+) ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
